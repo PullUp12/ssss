@@ -19,11 +19,14 @@ min-height: 18em;
 min-height: 8em;
 
 }
+.frame3{
+max-height: 3em;
+}
 
-.frameall{
-  width: 100%;
-  min-height: 77em;
-  background:aliceblue;
+.body{
+  max-height: 97em;
+background-size: cover;
+background: aliceblue;
 }
 .retrangle{
 width: 100%;
@@ -121,7 +124,6 @@ top: 24%;
 position: absolute;
 width: 48%;
 min-height: 14%;
-
 top: 30.67vw;
 left: 7vw;
 }
