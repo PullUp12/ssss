@@ -1,0 +1,211 @@
+
+/* righteous-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 1920;
+    src: url('../fonts/righteous-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.cont{
+position: relative;
+
+}
+.frame1{
+min-height: 18em;
+}
+.frame2{
+min-height: 8em;
+
+}
+
+.frameall{
+  width: 100%;
+  min-height: 77em;
+  background:aliceblue;
+}
+.retrangle{
+width: 100%;
+height: 17%;
+background-color: #6FFFF6 ;
+}
+.retrangle2{
+    position: absolute;
+    width: 32%;
+    min-height: 17%;
+    left: 8.70vw;
+    top: 2.91vw;
+    border-radius: 90px;
+    background: linear-gradient(180deg, #6FFFF6 0%, rgba(111, 255, 246, 0.00) 100%);
+ }
+.hs{
+    position: absolute;
+  
+    width: 50%;
+    color: black;
+    font-size: 36px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 2.2vw;
+    text-align: center;
+    left: 19.4%;
+    top: 8%;
+    
+   
+}
+.hs_block{
+    color: black;
+    font-size: 36px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 2.2vw;
+   padding-left: 10%;
+   padding-top: 15%;
+   padding-bottom: 7%;
+   padding-right: 4%;
+}
+.retrangle3{
+    position: absolute;
+    width: 32%;
+    min-height: 17%;
+    background: #6FFFF6;
+    left: 59.53vw;
+    top: 2.91vw;
+    border-radius: 90px;
+    background: linear-gradient(180deg, #6FFFF6 0%, rgba(111, 255, 246, 0.00) 100%);
+}
+.ss{
+    position: absolute;
+    width: 50%;
+    color: black;
+    font-size: 36px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 2.2vw;
+    text-align: center;
+    left: 19.4%;
+    top: 8%;
+    
+}
+.ss_block{
+    color: black;
+    font-size: 36px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 2.2vw;
+   padding-left: 10%;
+   padding-top: 15%;
+   padding-bottom: 7%;
+   padding-right: 4%;
+}
+
+#pic{
+width: 15%;
+height: auto;
+padding-top: 2%;
+padding-left: 8%;
+padding-bottom: 2%;
+}
+
+.inf1{
+position: absolute;
+color: black;
+font-family: 'Righteous';
+
+font-size: 2.2vw;
+left: 25.6%;
+top: 24%;
+}
+.kontakt{
+position: absolute;
+width: 48%;
+min-height: 14%;
+
+top: 30.67vw;
+left: 7vw;
+}
+.kont{
+    color: #000;
+    font-family: 'Righteous';
+    font-size: 36px;
+    font-size: 2.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 3%;
+}
+.poch{
+    color: #000;
+    font-family: 'Righteous';
+    font-size: 36px;
+    font-size: 2.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 3%;
+  
+}
+
+
+  html,body{
+    height: 100%;
+}
+
+  #s1,#s2,#s3{
+  position: absolute;
+  height: auto;
+  width: 35.4%;
+  min-height: 16%;
+  top:  21.27vw;
+  left: 57.42vw;
+  }
+  
+  
+  .prev{
+    position: absolute;
+    top: 37vw;
+    left: 54.5%;
+    right: 45%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    width: 3%;
+    min-height: 1%;
+    border: none;
+    font-size: 3vw;
+    color: black;
+  }
+.next {
+  position: absolute;
+  top: 37vw;
+  left: 93.7%;
+  right: 3%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  width: 3%;
+  min-height: 1%;
+  border: none;
+  font-size: 3vw;
+  color: black;
+}
+.mapas{
+  position: absolute;
+  left:72.8%;
+  top: 0%;
+ width: 27.2%;
+ height: 100%;
+  
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
